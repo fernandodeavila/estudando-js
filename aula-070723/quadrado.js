@@ -1,14 +1,14 @@
-// let lado=7;
-// let linha="";
+let lado=7;
+let linha="";
 
-// for(let i=0;i<lado;i++){
-//     linha=""
-//     for(let j=0; j<lado;j++){
-//         linha+=" # "
+for(let i=0;i<lado;i++){
+    linha=""
+    for(let j=0; j<lado;j++){
+        linha+=" # "
 
-//     }
-//     console.log(linha)
-// }
+    }
+    console.log(linha)
+}
 
 // //break e continue
 // for (let i=1; i<=20; i++){
