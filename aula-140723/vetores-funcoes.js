@@ -29,7 +29,8 @@ nums.slice() // fatia o vetor a partir de um indice até outro indice. não modi
 
 nums.forEach(num=>console.log(num)) //itera sobre os elelemtnos do vetor
 
-nums.reduce((acumulador, num)=>(acumulador+num), 0); //vai reduzir o vetor a somente um valor, esse valor pode ser a multiplição, subtração, som, divisão de todos os itens do array. 
+nums.reduce((acumulador, num)=>(acumulador+num), 0); 
+//vai reduzir o vetor a somente um valor, esse valor pode ser a multiplição, subtração, som, divisão de todos os itens do array. 
 // o segundo parametro dessa função defini qual sera o vvalor inicial do acumulador. Caso esse valor não seja definido o acummulador vai iniciar com o primeiro item do array.
 
 
