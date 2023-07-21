@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de tarefas</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        th,td{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1> Minhas tarefas</h1>
+    <table id="tabela-tarefas">
+        <tr>
+            <th>Descrição</th>
+            <th>Prioridade</th>
+            <th>Status</th>
+            <th>Prazo</th>
+        </tr>
+
+
+
+    </table>
+    <form action="#">
+        <fieldset>
+            <legend>Adicionar tarefa a tabela</legend>
+            <label for="descricao">Descrição</label>
+            <input type="text" id="descricao" required>
+
+            <label for="prioridade">Prioridade</label>
+            <select name="prioridade" id="prioridade" required>
+                <option selected disabled>Selecione uma opção</option>
+                <option>Pouco importante</option>
+                <option>Importante</option>
+                <option>Muito importante</option>
+            </select>
+
+            <label for="status">Status</label>
+            <select name="status" id="status" required>
+                <option selected disabled> Selecione uma opção</option>
+                <option>Para Fazer</option>
+                <option>Fazendo</option>
+                <option>Concluido</option>
+            </select>
+
+            <label for="prazo">Prazo</label>
+            <input id="prazo" type="date" required>
+
+            <button id="criarBtn" type="button">Criar </button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
